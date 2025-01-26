@@ -103,61 +103,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - **GitHub** - [Your GitHub Link]
 .com/yourusername/BotMinds.git
 cd BotMinds
-Set Up Backend:
 
-Navigate to the backend folder and install the required dependencies:
-bash
-Copy
-Edit
-cd backend
-pip install -r requirements.txt
-Set Up Frontend (if using React):
-
-Navigate to the frontend folder and install dependencies:
-bash
-Copy
-Edit
-cd frontend
-npm install
-Environment Variables:
-
-Create a .env file in the backend directory and add your OpenAI API key:
-bash
-Copy
-Edit
-OPENAI_API_KEY=your_api_key_here
-Run the Server:
-
-For Flask:
-bash
-Copy
-Edit
-python app.py
-For FastAPI:
-bash
-Copy
-Edit
-uvicorn main:app --reload
-Frontend (if applicable):
-
-Navigate to the frontend directory and run:
-bash
-Copy
-Edit
-npm start
-Access the Chatbot:
-
-Open a browser and go to http://localhost:5000 (for Flask) or http://localhost:3000 (for React-based frontend).
-How It Works
-The user submits a query via the chatbot interface.
-The query is sent to the backend, which uses OpenAI GPT (or another model) to generate a response.
-The backend sends the response back to the frontend for display.
-Customization
-Change Domain: You can adjust the knowledge base or fine-tune the model for a specific domain.
-Add More Features: Integrate with additional APIs (e.g., weather, stock prices) for dynamic responses.
-Multilingual Support: Adjust the chatbot to respond in multiple languages by modifying the model and adding translation APIs.
-Contributing
-We welcome contributions! Feel free to fork the repository and submit pull requests. Here are some ways you can contribute:
 
 Report bugs or issues.
 Suggest features or improvements.
