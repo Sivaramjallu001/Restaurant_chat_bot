@@ -1,5 +1,3 @@
-# BotMinds
-
 # **BotMinds - AI-Powered Domain-Specific Chatbot**
 
 BotMinds is an AI-powered chatbot built using advanced NLP techniques and LLMs (Large Language Models). The chatbot is designed to provide meaningful and context-aware conversations on a specific domain (e.g., customer support, programming, education). This project showcases the power of NLP and fine-tuning large language models for real-world applications.
