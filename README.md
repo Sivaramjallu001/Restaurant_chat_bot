@@ -95,8 +95,6 @@ To run this project locally, you'll need:
 ## **Contributions**
 Feel free to fork the repository and submit pull requests. If you have any improvements or features in mind, open an issue or submit a pull request!
 
-## **License**
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## **Contact**
 - **Your Name** - Sivaram Jallu
@@ -104,9 +102,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 .com/yourusername/BotMinds.git
 cd BotMinds
 
-
-Report bugs or issues.
-Suggest features or improvements.
-Improve the documentation.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
