@@ -99,8 +99,8 @@ Feel free to fork the repository and submit pull requests. If you have any impro
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## **Contact**
-- **Your Name** - [Your Contact Information]
-- **GitHub** - [Your GitHub Link]
+- **Your Name** - Sivaram Jallu
+- **Mail** - jallusivaram@gmail.com
 .com/yourusername/BotMinds.git
 cd BotMinds
 
