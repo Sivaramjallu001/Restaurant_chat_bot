@@ -1,0 +1,24 @@
+restaurant-helper-bot/
+├── Dialogflow/                  # All Dialogflow agent-related files
+│   ├── intents/                 # Exported intents (JSON files)
+│   ├── entities/                # Exported entities (JSON files)
+│   └── agent.json               # Dialogflow agent configuration
+├── backend/                     # Backend server for fulfillment (e.g., Flask/Node.js)
+│   ├── app.py                   # Main backend server file (Flask/Node.js app)
+│   ├── requirements.txt         # Python dependencies (if using Flask)
+│   ├── package.json             # Node.js dependencies (if using Node.js)
+│   ├── config/                  # Configuration files (e.g., API keys, environment variables)
+│   └── routes/                  # API routes for order and menu handling
+│       ├── place_order.py       # Logic for handling order placement
+│       ├── track_order.py       # Logic for tracking orders
+│       └── menu_query.py        # Logic for retrieving menu details
+├── database/                    # Order and menu database (optional)
+│   ├── schema.sql               # SQL schema (if using a relational database)
+│   └── dummy_data.json          # Sample menu and order data
+├── frontend/                    # Frontend integration files
+│   ├── index.html               # Example chatbot interface (if using a website)
+│   ├── styles.css               # Optional styles for the chatbot UI
+│   └── chatbot.js               # JS logic to integrate the bot with the frontend
+├── README.md                    # Documentation for the project
+├── LICENSE                      # License for the project
+└── .gitignore                   # Files to ignore in the repo
