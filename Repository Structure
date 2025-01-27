@@ -3,22 +3,24 @@ restaurant-helper-bot/
 │   ├── intents/                 # Exported intents (JSON files)
 │   ├── entities/                # Exported entities (JSON files)
 │   └── agent.json               # Dialogflow agent configuration
-├── backend/                     # Backend server for fulfillment (e.g., Flask/Node.js)
-│   ├── app.py                   # Main backend server file (Flask/Node.js app)
-│   ├── requirements.txt         # Python dependencies (if using Flask)
-│   ├── package.json             # Node.js dependencies (if using Node.js)
-│   ├── config/                  # Configuration files (e.g., API keys, environment variables)
-│   └── routes/                  # API routes for order and menu handling
-│       ├── place_order.py       # Logic for handling order placement
-│       ├── track_order.py       # Logic for tracking orders
-│       └── menu_query.py        # Logic for retrieving menu details
-├── database/                    # Order and menu database (optional)
-│   ├── schema.sql               # SQL schema (if using a relational database)
-│   └── dummy_data.json          # Sample menu and order data
+├── backend/                     # Backend server for fulfillment using FastAPI
+│   ├── main.py                  # FastAPI main entry point
+│   ├── models/                  # Pydantic models for data validation
+│   │   ├── menu.py              # Schema for menu data
+│   │   ├── order.py             # Schema for order data
+│   ├── routers/                 # FastAPI routers for modular API routes
+│   │   ├── menu.py              # Routes for menu-related endpoints
+│   │   ├── order.py             # Routes for order-related endpoints
+│   ├── database/                # Database-related files
+│   │   ├── connection.py        # MySQL connection setup
+│   │   ├── crud.py              # Database CRUD operations
+│   │   └── schema.sql           # SQL schema for creating tables
+│   ├── config.py                # Configuration file for database credentials
+│   └── requirements.txt         # Python dependencies
 ├── frontend/                    # Frontend integration files
 │   ├── index.html               # Example chatbot interface (if using a website)
-│   ├── styles.css               # Optional styles for the chatbot UI
-│   └── chatbot.js               # JS logic to integrate the bot with the frontend
+│   ├── styles.css               # Optional styles for chatbot UI
+│   └── chatbot.js               # JS logic for chatbot integration
 ├── README.md                    # Documentation for the project
 ├── LICENSE                      # License for the project
 └── .gitignore                   # Files to ignore in the repo
