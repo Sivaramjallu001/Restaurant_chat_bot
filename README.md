@@ -1,6 +1,6 @@
-# **BotMinds - AI-Powered Restaurant Helper Bot**
+# **Restaurant_chat_bot - AI-Powered Restaurant Helper Bot**
 
-BotMinds is a conversational AI bot designed to assist users with placing and tracking restaurant orders. Built using **Google's Dialogflow**, **FastAPI**, and **MySQL**, this project demonstrates the integration of NLP capabilities into a practical application.
+Restaurant_chat_bot is a conversational AI bot designed to assist users with placing and tracking restaurant orders. Built using **Google's Dialogflow**, **FastAPI**, and **MySQL**, this project demonstrates the integration of NLP capabilities into a practical application.
 
 ---
 
